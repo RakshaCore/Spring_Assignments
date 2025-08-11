@@ -1,0 +1,12 @@
+package com.xworkz.dishwashsoap.chronicle;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Spoon {
+    public Spoon() {
+        System.out.println("Running Spoon in Chronicle");
+    }
+
+}
+
